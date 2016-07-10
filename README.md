@@ -13,7 +13,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Steps
 - Download the zip file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - Unzip the file.
-- Keep the directory into the working directory.
+- Keep the directory into the R working directory.
 
 > Before Executing the script, if not installed, please install reshape2 by running the below line of code in RStudio.
 ```
