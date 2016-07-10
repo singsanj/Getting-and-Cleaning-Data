@@ -90,7 +90,9 @@ data <- melt(clean_data, id=c("subject_id","activity"))
 tidy <- dcast(data, subject_id+activity ~ variable, mean)
 
 # write the tidy data set to a file barring the row names
-write.csv(tidy, "tidy.csv", row.names=FALSE)
+write.csv(tidy, "tidy.txt", row.names=FALSE)
+
+#write.csv(tidy, "tidy.csv", row.names=FALSE)
 
 #############################################################
 ################## Objective 5 Completed ####################
